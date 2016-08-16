@@ -9,6 +9,7 @@ public class SampleCoref {
 
         public static void main(String[] args) throws Exception {
 
+            System.out.println("Welcome");
             AnnotatorService annotator = CuratorFactory.buildCuratorClient();
             TextAnnotation ta = annotator.createBasicTextAnnotation("sample", "1", "Mary is eating an apple. She likes it.");
 
